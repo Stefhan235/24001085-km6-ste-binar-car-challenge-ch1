@@ -1,0 +1,26 @@
+.rounded-circle-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+}
+
+.rounded-circle-btn:hover {
+    background-color: #5cb85f; /* Change background color on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
